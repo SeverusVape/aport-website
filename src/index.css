@@ -1,27 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;700&display=swap");
-
 :root {
-    --color-primary: #f9f9f9;
-    --color-primary-dark: #082032;
-    --color-red: #ff4c29;
-    --color-gray-1: #2c394b;
-    --color-gray-2: #334756;
-
-    --font-main: "M PLUS Rounded 1c";
-}
+  --color-primary: #f9f9f9;
+  --color-primary-dark: #082032;
+  --color-red: #ff4c29;
+  --color-gray-1: #2c394b;
+  --color-gray-2: #334756;
+  --font-main: "M PLUS Rounded 1c"; }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
 html {
-    font-size: 62.5%;
-}
+  font-size: 62.5%;
+  font-weight: 400; }
 
 body {
-    font-family: var(--font-main);
-    background-color: var(--color-primary);
-    color: var(--color-gray-1);
-}
+  font-family: var(--font-main);
+  background-color: var(--color-primary);
+  color: var(--color-gray-1); }
