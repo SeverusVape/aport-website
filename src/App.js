@@ -1,9 +1,7 @@
-import React from "react";
-
 function App() {
     return (
-        <div>
-            <h1>Hello my friend</h1>
+        <div className="App">
+            <h1>Hello from the server...</h1>
         </div>
     );
 }
