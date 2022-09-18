@@ -3,6 +3,8 @@
 :root {
     --color-primary: #ffffff;
     --color-primary-dark: #000000;
+
+    --color-text-menu: #a2a2a4;
     --color-hover: #dea28d;
 
     --color-gray-1: #f5f5f5;
@@ -26,8 +28,4 @@ body {
     font-family: var(--font-main);
     background-color: var(--color-primary);
     color: var(--color-primary-dark);
-}
-
-.App {
-    height: 100rem;
 }

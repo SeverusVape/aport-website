@@ -14,6 +14,18 @@ const Navbar = () => {
                         />
                     </a>
                 </div>
+
+                <div className="navbar__icons">
+                    <a href="#facebook" className="navbar__icon">
+                        FBK
+                    </a>
+                    <a href="#instagramm" className="navbar__icon">
+                        IG
+                    </a>
+                    <a href="#twitter" className="navbar__icon">
+                        TWTR
+                    </a>
+                </div>
             </div>
             <div className="side-menu">
                 <ul className="nav__links">
@@ -28,13 +40,13 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li className="nav__link">
-                        <a href="#about">
-                            <span className="link-content">About</span>
+                        <a href="#partners">
+                            <span className="link-content">Partners</span>
                         </a>
                     </li>
                     <li className="nav__link">
-                        <a href="#info">
-                            <span className="link-content">Info</span>
+                        <a href="#about">
+                            <span className="link-content">About</span>
                         </a>
                     </li>
                     <li className="nav__link">
