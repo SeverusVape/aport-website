@@ -28,4 +28,11 @@ body {
     font-family: var(--font-main);
     background-color: var(--color-primary);
     color: var(--color-primary-dark);
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }

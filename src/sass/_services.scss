@@ -1,5 +1,10 @@
 .services {
     width: 100%;
     height: 100vh;
-    background-color: pink;
+    background-color: var(--color-primary);
+
+    // ! TEST
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
