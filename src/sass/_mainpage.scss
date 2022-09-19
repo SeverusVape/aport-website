@@ -1,7 +1,21 @@
 .homepage-container {
+    position: relative;
     width: 100%;
     height: 100vh;
-    background-color: var(--color-gray-1);
+
+    &__video {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        z-index: -1;
+    }
+}
+
+.main-menu {
+    position: relative;
 }
 
 // * NAVBAR START
@@ -35,6 +49,9 @@
         color: var(--color-primary-dark);
         font-size: 2rem;
         margin-left: 2rem;
+        position: relative;
+
+        // z-index: 3;
     }
 
     .icon:hover {
@@ -52,4 +69,15 @@
     &__hamburger svg {
         margin-bottom: -0.45rem;
     }
+}
+
+// * SIDE MENU
+
+.side-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 32rem;
+    height: 100vh;
+    background-color: var(--color-primary-dark);
 }
