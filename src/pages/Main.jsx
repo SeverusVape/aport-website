@@ -14,6 +14,10 @@ const Main = () => {
                 loop
             ></video>
 
+            <div className="homepage-container__text">
+                Electric Vehicle Charging Service
+            </div>
+
             <Navbar />
         </div>
     );
