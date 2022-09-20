@@ -27,6 +27,10 @@ body {
 body::-webkit-scrollbar {
   display: none; }
 
+.wrapper {
+  width: 100%;
+  min-height: 100vh; }
+
 .homepage-container {
   position: relative;
   width: 100%;
